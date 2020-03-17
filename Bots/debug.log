@@ -1,0 +1,963 @@
+[0116/154010.689:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0116/154010.690:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0116/154010.690:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0116/154010.690:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0116/155316.902:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[0116/155316.902:ERROR:exception_snapshot_win.cc(98)] thread ID 8044 not found in process
+[0116/155316.902:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0224/164043.960:ERROR:file_io.cc(134)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0226/110654.659:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff7455e0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.661:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[0226/110654.661:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff810710000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.661:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\ntdll.dll
+[0226/110654.661:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80df40000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.662:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\KERNEL32.DLL
+[0226/110654.662:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80d550000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.662:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\KERNELBASE.dll
+[0226/110654.662:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffe46a0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.662:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\80.0.3987.116\chrome_elf.dll
+[0226/110654.662:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff804d50000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.662:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\VERSION.dll
+[0226/110654.662:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80e8b0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.662:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\msvcrt.dll
+[0226/110654.662:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80d4d0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.662:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\bcryptPrimitives.dll
+[0226/110654.663:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80de30000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.663:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\ADVAPI32.dll
+[0226/110654.663:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff8102e0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.663:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\sechost.dll
+[0226/110654.663:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80e710000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.663:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\RPCRT4.dll
+[0226/110654.663:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffb1310000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.663:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\80.0.3987.116\chrome.dll
+[0226/110654.663:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff810270000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.663:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\WS2_32.dll
+[0226/110654.663:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff810460000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.663:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\OLEAUT32.dll
+[0226/110654.663:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c940000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.663:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\msvcp_win.dll
+[0226/110654.664:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c840000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.664:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\ucrtbase.dll
+[0226/110654.664:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80ea00000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.664:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\combase.dll
+[0226/110654.664:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80d820000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.664:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\WINTRUST.dll
+[0226/110654.664:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c720000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.664:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\MSASN1.dll
+[0226/110654.664:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c9e0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.664:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\CRYPT32.dll
+[0226/110654.664:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80bc90000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.664:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\IPHLPAPI.DLL
+[0226/110654.664:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff805ad0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.664:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\WINMM.dll
+[0226/110654.664:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff800440000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.664:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\Secur32.dll
+[0226/110654.664:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c630000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.665:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\USERENV.dll
+[0226/110654.665:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c7a0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.665:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\profapi.dll
+[0226/110654.665:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffd1240000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.665:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\UIAutomationCore.DLL
+[0226/110654.665:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffe62d0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.665:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\DWrite.dll
+[0226/110654.665:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffff9b40000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.665:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\WINSPOOL.DRV
+[0226/110654.665:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c700000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.666:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\kernel.appcore.dll
+[0226/110654.666:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80d7f0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.666:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\bcrypt.dll
+[0226/110654.666:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80b0c0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.666:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\dbghelp.dll
+[0226/110654.666:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff806000000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.666:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\WINHTTP.dll
+[0226/110654.666:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff800b50000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.666:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\dhcpcsvc.DLL
+[0226/110654.666:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff810530000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.667:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\NSI.dll
+[0226/110654.667:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff805a90000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.667:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\WINMMBASE.dll
+[0226/110654.667:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c7d0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.667:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\cfgmgr32.dll
+[0226/110654.667:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffff0680000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.667:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\Bcp47Langs.dll
+[0226/110654.667:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80a470000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.667:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\PROPSYS.dll
+[0226/110654.667:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80e950000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.667:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\shcore.dll
+[0226/110654.667:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c600000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.667:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\SSPICLI.DLL
+[0226/110654.668:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80ed30000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.668:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\SHELL32.dll
+[0226/110654.668:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80cd80000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.668:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\windows.storage.dll
+[0226/110654.668:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c740000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.668:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\powrprof.dll
+[0226/110654.668:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80e850000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.668:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\shlwapi.dll
+[0226/110654.668:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff810230000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.668:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\GDI32.dll
+[0226/110654.668:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80cbe0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.668:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\gdi32full.dll
+[0226/110654.669:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff810540000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.669:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\USER32.dll
+[0226/110654.669:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80cbc0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.669:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\win32u.dll
+[0226/110654.669:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c820000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.669:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\cryptsp.dll
+[0226/110654.669:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80dcd0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.669:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\IMM32.DLL
+[0226/110654.669:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c140000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.669:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\CRYPTBASE.DLL
+[0226/110654.670:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff7455e0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.670:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[0226/110654.670:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff810710000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.670:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\ntdll.dll
+[0226/110654.670:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80df40000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.670:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\KERNEL32.DLL
+[0226/110654.670:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80d550000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.670:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\KERNELBASE.dll
+[0226/110654.670:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffe46a0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.670:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\80.0.3987.116\chrome_elf.dll
+[0226/110654.670:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff804d50000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.670:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\VERSION.dll
+[0226/110654.670:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80e8b0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.670:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\msvcrt.dll
+[0226/110654.670:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80d4d0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.670:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\bcryptPrimitives.dll
+[0226/110654.671:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80de30000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.671:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\ADVAPI32.dll
+[0226/110654.671:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff8102e0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.671:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\sechost.dll
+[0226/110654.671:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80e710000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.671:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\RPCRT4.dll
+[0226/110654.671:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffb1310000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.671:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\80.0.3987.116\chrome.dll
+[0226/110654.671:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff810270000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.671:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\WS2_32.dll
+[0226/110654.671:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff810460000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.671:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\OLEAUT32.dll
+[0226/110654.671:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c940000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.671:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\msvcp_win.dll
+[0226/110654.671:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c840000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.671:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\ucrtbase.dll
+[0226/110654.671:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80ea00000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.671:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\combase.dll
+[0226/110654.672:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80d820000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.672:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\WINTRUST.dll
+[0226/110654.672:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c720000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.673:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\MSASN1.dll
+[0226/110654.673:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c9e0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.673:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\CRYPT32.dll
+[0226/110654.673:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80bc90000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.673:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\IPHLPAPI.DLL
+[0226/110654.673:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff805ad0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.673:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\WINMM.dll
+[0226/110654.673:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff800440000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.673:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\Secur32.dll
+[0226/110654.673:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c630000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.673:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\USERENV.dll
+[0226/110654.673:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c7a0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.673:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\profapi.dll
+[0226/110654.673:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffd1240000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.673:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\UIAutomationCore.DLL
+[0226/110654.673:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffe62d0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.673:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\DWrite.dll
+[0226/110654.673:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffff9b40000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.673:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\WINSPOOL.DRV
+[0226/110654.673:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c700000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.673:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\kernel.appcore.dll
+[0226/110654.674:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80d7f0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.674:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\bcrypt.dll
+[0226/110654.674:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80b0c0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.674:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\dbghelp.dll
+[0226/110654.674:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff806000000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.674:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\WINHTTP.dll
+[0226/110654.674:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff800b50000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.674:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\dhcpcsvc.DLL
+[0226/110654.674:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff810530000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.674:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\NSI.dll
+[0226/110654.674:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff805a90000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.674:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\WINMMBASE.dll
+[0226/110654.674:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c7d0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.674:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\cfgmgr32.dll
+[0226/110654.674:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffff0680000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.674:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\Bcp47Langs.dll
+[0226/110654.674:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80a470000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.674:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\PROPSYS.dll
+[0226/110654.675:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80e950000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.675:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\shcore.dll
+[0226/110654.675:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c600000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.675:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\SSPICLI.DLL
+[0226/110654.675:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80ed30000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.675:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\SHELL32.dll
+[0226/110654.675:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80cd80000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.675:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\windows.storage.dll
+[0226/110654.675:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c740000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.675:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\powrprof.dll
+[0226/110654.675:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80e850000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.675:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\shlwapi.dll
+[0226/110654.675:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff810230000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.675:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\GDI32.dll
+[0226/110654.676:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80cbe0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.676:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\gdi32full.dll
+[0226/110654.676:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff810540000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.676:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\USER32.dll
+[0226/110654.676:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80cbc0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.676:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\win32u.dll
+[0226/110654.676:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c820000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.676:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\cryptsp.dll
+[0226/110654.676:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80dcd0000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.676:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\System32\IMM32.DLL
+[0226/110654.676:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff80c140000 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.677:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\SYSTEM32\CRYPTBASE.DLL
+[0226/110654.699:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffefee000 of 73728 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.699:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3fff7fd000 of 12288 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.700:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3fffff3000 of 53248 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.700:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3f807fc000 of 16384 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.700:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3f80ffb000 of 20480 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.701:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3f817fe000 of 8192 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.701:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3f81ffd000 of 12288 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.701:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3f827fc000 of 16384 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.701:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3f82ffd000 of 12288 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.701:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3f837fd000 of 12288 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.701:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3f83ffd000 of 12288 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.702:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3f847fd000 of 12288 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.702:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3f84ffd000 of 12288 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.702:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3f857fd000 of 12288 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.702:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3f85ffd000 of 12288 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.702:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3f867fd000 of 12288 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.702:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffe785000 of 852 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.702:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffe786000 of 6024 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.703:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffe788000 of 6024 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.703:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffe78a000 of 6024 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.703:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffe78c000 of 6024 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.703:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffe78e000 of 6024 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.703:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffe790000 of 6024 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.703:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffe792000 of 6024 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.704:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffe794000 of 6024 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.704:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffe796000 of 6024 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.704:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffe798000 of 6024 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.704:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffe79a000 of 6024 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.704:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffe79c000 of 6024 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.704:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffe79e000 of 6024 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.705:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffe7a0000 of 6024 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.705:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffe7a2000 of 6024 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.705:ERROR:process_memory_win.cc(73)] ReadMemory at 0x3ffe7a4000 of 6024 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.705:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f0000 of 384 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.705:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f0fe0 of 7530 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.705:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f2d60 of 1012 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.705:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f3388 of 118 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.706:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f3400 of 1302 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.706:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f3918 of 118 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.706:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f3990 of 98 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.706:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f3a00 of 58 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.706:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f3b00 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.706:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f3c90 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.706:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f3e50 of 126 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.706:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f4230 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.707:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f43c0 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.707:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f4410 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.707:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f4580 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.707:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f4820 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.707:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f49b0 of 68 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.707:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f59a0 of 146 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.707:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f5a80 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.707:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f5c10 of 154 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.707:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f6740 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.708:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f6a20 of 62 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.708:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f6b80 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.708:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f6d10 of 60 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.708:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f6e90 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.708:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f89b0 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.708:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696f8bc0 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.708:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fb660 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.708:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fb7f0 of 80 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.709:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fb9e0 of 60 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.709:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fba80 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.709:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fbad0 of 62 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.709:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fbb70 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.709:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fbc10 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.709:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fbd00 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.710:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fbee0 of 66 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.710:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fbf80 of 60 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.710:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fc020 of 62 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.710:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fc5a0 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.711:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fc6d0 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.711:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fc800 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.711:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fc930 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.711:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fcb90 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.711:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fccc0 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.711:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fcdf0 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.711:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fcf20 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.711:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fd050 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.711:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fd180 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.712:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fd2b0 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.712:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fd3e0 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.712:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fdc70 of 76 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.712:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fdd90 of 80 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.712:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fe030 of 78 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.712:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fed60 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.712:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6696fef80 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.712:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669700100 of 54 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.712:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669700c20 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.712:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669701d90 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.713:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669706470 of 62 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.713:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6697064c0 of 62 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.713:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669706650 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.713:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6697066f0 of 60 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.713:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6697069c0 of 62 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.713:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669706a10 of 60 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.714:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669706a60 of 58 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.714:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669706ab0 of 62 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.714:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669706b00 of 68 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.714:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669706b50 of 66 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.714:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669706bf0 of 60 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.714:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669706c40 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.714:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669706ce0 of 62 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.714:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669706d80 of 62 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.714:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669706dd0 of 60 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.715:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669706e20 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.715:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669706ec0 of 62 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.715:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669707050 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.715:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6697070f0 of 62 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.715:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669707a50 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.715:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669708040 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.715:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669708170 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.715:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6697082a0 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.716:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6697083d0 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.716:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669708500 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.716:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669708630 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.716:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669708890 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.716:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6697089c0 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.716:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669708af0 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.716:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669708c20 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.716:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669708d50 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.717:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669708e80 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.717:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669708fb0 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.717:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6697090e0 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.717:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669709210 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.717:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669709340 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.717:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669709470 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.718:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6697095a0 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.718:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d6697096d0 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.718:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669709800 of 132 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.718:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669716db0 of 60 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.718:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669716ef0 of 60 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.718:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669717170 of 58 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.718:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669717580 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.719:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669717710 of 62 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.719:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669717940 of 66 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.719:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669717990 of 62 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.719:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669717b20 of 62 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.719:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669717b70 of 58 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.719:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669728400 of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.720:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d66972a370 of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.720:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669a70010 of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.720:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669a71000 of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.720:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669bca030 of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.721:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669be1af0 of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.721:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669be6f10 of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.721:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669bebae8 of 656 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.721:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669bebdb8 of 800 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.721:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669bec6b8 of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.722:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669bf2ac0 of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.722:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669bfc720 of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.722:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669bfcc40 of 712 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.722:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d669bfe1d0 of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.723:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d66bc30000 of 384 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.723:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d66bc5ce30 of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.723:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d66bd3f080 of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.723:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d66bd969e0 of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.723:ERROR:process_memory_win.cc(73)] ReadMemory at 0x1d66bde9fc8 of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.723:ERROR:process_memory_win.cc(73)] ReadMemory at 0x202c5f7258b8 of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.723:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff8107af754 of 672 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.723:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff8107afd54 of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.724:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff8107b2fe4 of 608 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.724:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff81083c0c8 of 18 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.724:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff81086f4f8 of 40 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.724:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff81086f978 of 48 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.724:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff8108753a0 of 64 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.724:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffb38c00ec of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.724:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fffb4653a7b of 512 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0226/110654.727:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0226/110819.242:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0226/110819.243:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0226/110819.243:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0226/110819.243:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0226/125830.180:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0226/125830.181:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0226/125830.181:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0226/125830.181:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0226/151625.498:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0226/151625.499:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0226/151625.499:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0226/152112.663:ERROR:file_io.cc(134)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0226/153315.357:ERROR:file_io.cc(134)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0226/153408.275:ERROR:file_io_win.cc(161)] CreateFile C:\Users\APDIF\AppData\Local\Temp\scoped_dir100708_1812512040\Crashpad\settings.dat: El sistema no puede encontrar la ruta especificada. (0x3)
+[0226/153408.276:ERROR:file_io_win.cc(170)] CreateFile C:\Users\APDIF\AppData\Local\Temp\scoped_dir100708_1812512040\Crashpad\reports\080d5903-ce6b-4fe7-8736-b63f07b6d840.dmp: El sistema no puede encontrar la ruta especificada. (0x3)
+[0226/153408.276:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0226/181238.487:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0226/181238.488:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0226/181238.488:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0226/181918.501:ERROR:file_io.cc(134)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0226/181918.504:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0226/181918.504:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0226/181918.504:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0227/125408.436:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0227/125706.206:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0227/161834.968:ERROR:file_io.cc(134)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0228/092124.250:ERROR:file_io.cc(134)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0228/104602.476:ERROR:file_io.cc(134)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0228/111728.021:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0228/112810.022:ERROR:file_io.cc(134)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0228/190521.044:ERROR:file_io.cc(134)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0228/193735.279:ERROR:file_io.cc(134)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0306/093431.934:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0306/093431.937:ERROR:exception_snapshot_win.cc(98)] thread ID 248364 not found in process
+[0306/093432.219:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0306/093432.219:ERROR:exception_snapshot_win.cc(98)] thread ID 232064 not found in process
+[0306/093432.612:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0306/093432.614:ERROR:exception_snapshot_win.cc(98)] thread ID 25692 not found in process
+[0306/093432.885:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0306/093432.885:ERROR:exception_snapshot_win.cc(98)] thread ID 249576 not found in process
+[0310/104934.139:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/104934.140:ERROR:exception_snapshot_win.cc(98)] thread ID 210404 not found in process
+[0310/104934.259:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/104934.259:ERROR:exception_snapshot_win.cc(98)] thread ID 28132 not found in process
+[0310/104947.484:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/104947.484:ERROR:exception_snapshot_win.cc(98)] thread ID 248920 not found in process
+[0310/104947.559:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/104947.559:ERROR:exception_snapshot_win.cc(98)] thread ID 26532 not found in process
+[0310/104947.741:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/104947.741:ERROR:exception_snapshot_win.cc(98)] thread ID 35976 not found in process
+[0310/104947.820:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/104947.820:ERROR:exception_snapshot_win.cc(98)] thread ID 236552 not found in process
+[0310/104947.910:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/104947.910:ERROR:exception_snapshot_win.cc(98)] thread ID 248972 not found in process
+[0310/104948.112:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/104948.112:ERROR:exception_snapshot_win.cc(98)] thread ID 246516 not found in process
+[0310/104949.805:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/104949.805:ERROR:exception_snapshot_win.cc(98)] thread ID 245656 not found in process
+[0310/104949.871:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/104949.871:ERROR:exception_snapshot_win.cc(98)] thread ID 238736 not found in process
+[0310/105050.272:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/105050.273:ERROR:exception_snapshot_win.cc(98)] thread ID 229872 not found in process
+[0310/105050.411:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/105050.411:ERROR:exception_snapshot_win.cc(98)] thread ID 248576 not found in process
+[0310/113920.670:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/113920.671:ERROR:exception_snapshot_win.cc(98)] thread ID 234440 not found in process
+[0310/113920.672:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/113920.672:ERROR:exception_snapshot_win.cc(98)] thread ID 249220 not found in process
+[0310/113920.797:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/113920.797:ERROR:exception_snapshot_win.cc(98)] thread ID 247768 not found in process
+[0310/122415.676:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0310/122415.678:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0310/122415.678:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0310/122415.678:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0310/122415.678:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0310/122415.678:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0310/122415.678:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0310/123828.659:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/123828.660:ERROR:exception_snapshot_win.cc(98)] thread ID 226784 not found in process
+[0310/123828.720:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/123828.720:ERROR:exception_snapshot_win.cc(98)] thread ID 234956 not found in process
+[0310/123828.929:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/123828.929:ERROR:exception_snapshot_win.cc(98)] thread ID 242892 not found in process
+[0310/123830.319:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/123830.319:ERROR:exception_snapshot_win.cc(98)] thread ID 247448 not found in process
+[0310/123958.401:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/123958.402:ERROR:exception_snapshot_win.cc(98)] thread ID 248148 not found in process
+[0310/123958.611:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/123958.611:ERROR:exception_snapshot_win.cc(98)] thread ID 246672 not found in process
+[0310/124141.605:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/124141.606:ERROR:exception_snapshot_win.cc(98)] thread ID 198116 not found in process
+[0310/124141.798:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/124141.798:ERROR:exception_snapshot_win.cc(98)] thread ID 242936 not found in process
+[0310/125044.113:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/125044.114:ERROR:exception_snapshot_win.cc(98)] thread ID 233732 not found in process
+[0310/125044.294:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/125044.294:ERROR:exception_snapshot_win.cc(98)] thread ID 237700 not found in process
+[0310/135837.710:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/135837.714:ERROR:exception_snapshot_win.cc(98)] thread ID 246520 not found in process
+[0310/135839.027:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/135839.027:ERROR:exception_snapshot_win.cc(98)] thread ID 225456 not found in process
+[0310/135839.218:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/135839.218:ERROR:exception_snapshot_win.cc(98)] thread ID 242916 not found in process
+[0310/135859.360:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/135859.361:ERROR:exception_snapshot_win.cc(98)] thread ID 243500 not found in process
+[0310/135859.613:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/135859.613:ERROR:exception_snapshot_win.cc(98)] thread ID 246636 not found in process
+[0310/140137.350:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/140137.350:ERROR:exception_snapshot_win.cc(98)] thread ID 247900 not found in process
+[0310/140137.542:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/140137.542:ERROR:exception_snapshot_win.cc(98)] thread ID 226312 not found in process
+[0310/143116.851:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0310/143116.851:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0310/143116.851:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0310/143116.851:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0310/143701.880:ERROR:process_reader_win.cc(108)] process 189036 not found
+[0310/143701.880:ERROR:exception_snapshot_win.cc(98)] thread ID 236996 not found in process
+[0310/143701.880:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0310/153733.661:ERROR:process_reader_win.cc(108)] process 241788 not found
+[0310/153733.661:ERROR:exception_snapshot_win.cc(98)] thread ID 235884 not found in process
+[0310/153733.661:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0310/160719.664:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/160719.665:ERROR:exception_snapshot_win.cc(98)] thread ID 248912 not found in process
+[0310/162243.880:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0310/162243.882:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0310/162243.882:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0310/162243.882:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0310/162243.932:ERROR:process_reader_win.cc(108)] process 246760 not found
+[0310/162243.932:ERROR:exception_snapshot_win.cc(98)] thread ID 234196 not found in process
+[0310/162243.933:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0310/162427.238:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/162427.239:ERROR:exception_snapshot_win.cc(98)] thread ID 247144 not found in process
+[0310/162639.259:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0310/162639.260:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0310/162639.260:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0310/162639.260:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0310/162824.384:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0310/162824.385:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0310/162824.385:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0310/165326.817:ERROR:process_reader_win.cc(108)] process 220508 not found
+[0310/165326.818:ERROR:exception_snapshot_win.cc(98)] thread ID 244432 not found in process
+[0310/165326.818:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0310/180125.511:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/180125.512:ERROR:exception_snapshot_win.cc(98)] thread ID 251236 not found in process
+[0310/180125.514:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/180125.514:ERROR:exception_snapshot_win.cc(98)] thread ID 252760 not found in process
+[0310/180125.517:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/180125.518:ERROR:exception_snapshot_win.cc(98)] thread ID 252720 not found in process
+[0310/180125.693:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/180125.693:ERROR:exception_snapshot_win.cc(98)] thread ID 252724 not found in process
+[0310/180125.697:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/180125.697:ERROR:exception_snapshot_win.cc(98)] thread ID 239108 not found in process
+[0310/180125.699:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/180125.699:ERROR:exception_snapshot_win.cc(98)] thread ID 189900 not found in process
+[0310/180135.801:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/180135.802:ERROR:exception_snapshot_win.cc(98)] thread ID 246420 not found in process
+[0310/180135.944:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/180135.944:ERROR:exception_snapshot_win.cc(98)] thread ID 239476 not found in process
+[0310/180142.166:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/180142.166:ERROR:exception_snapshot_win.cc(98)] thread ID 248844 not found in process
+[0310/180142.398:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0310/180142.398:ERROR:exception_snapshot_win.cc(98)] thread ID 250380 not found in process
+[0310/181408.305:ERROR:file_io.cc(134)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0310/181710.763:ERROR:file_io.cc(134)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0310/190827.425:ERROR:process_reader_win.cc(108)] process 234196 not found
+[0310/190827.425:ERROR:exception_snapshot_win.cc(98)] thread ID 243784 not found in process
+[0310/190827.425:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0310/190920.457:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0310/190920.457:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0310/190920.457:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0310/192125.233:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0310/192125.234:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0310/192125.234:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0310/200251.921:ERROR:process_reader_win.cc(108)] process 247856 not found
+[0310/200251.921:ERROR:exception_snapshot_win.cc(98)] thread ID 228264 not found in process
+[0310/200251.921:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0310/201328.998:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0310/201328.998:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0310/201328.999:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0310/201328.999:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0310/210044.497:ERROR:process_reader_win.cc(108)] process 250740 not found
+[0310/210044.498:ERROR:exception_snapshot_win.cc(98)] thread ID 110640 not found in process
+[0310/210044.498:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0310/215235.275:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0310/215235.275:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0310/215235.275:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0310/215235.275:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0311/012548.931:ERROR:process_reader_win.cc(108)] process 246672 not found
+[0311/012548.932:ERROR:exception_snapshot_win.cc(98)] thread ID 228788 not found in process
+[0311/012548.932:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0311/025939.151:ERROR:process_reader_win.cc(108)] process 247096 not found
+[0311/025939.151:ERROR:exception_snapshot_win.cc(98)] thread ID 231856 not found in process
+[0311/025939.151:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0311/034903.598:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0311/034903.598:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0311/034903.598:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0311/034903.598:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0311/050150.245:ERROR:process_reader_win.cc(108)] process 187408 not found
+[0311/050150.245:ERROR:exception_snapshot_win.cc(98)] thread ID 249252 not found in process
+[0311/050150.246:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0311/054739.744:ERROR:process_reader_win.cc(108)] process 249540 not found
+[0311/054739.745:ERROR:exception_snapshot_win.cc(98)] thread ID 251532 not found in process
+[0311/054739.745:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0311/073948.490:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0311/073948.491:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0311/073948.491:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0311/073948.491:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0311/081517.182:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0311/081517.183:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0311/081517.183:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0311/081517.183:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0311/085847.895:ERROR:process_reader_win.cc(108)] process 240896 not found
+[0311/085847.895:ERROR:exception_snapshot_win.cc(98)] thread ID 246640 not found in process
+[0311/085847.895:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0311/091117.327:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/091117.328:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/091117.329:ERROR:exception_snapshot_win.cc(98)] thread ID 249872 not found in process
+[0311/091117.329:ERROR:exception_snapshot_win.cc(98)] thread ID 249128 not found in process
+[0311/091117.342:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/091117.343:ERROR:exception_snapshot_win.cc(98)] thread ID 251940 not found in process
+[0311/091117.368:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/091117.369:ERROR:exception_snapshot_win.cc(98)] thread ID 247188 not found in process
+[0311/091117.531:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/091117.531:ERROR:exception_snapshot_win.cc(98)] thread ID 231792 not found in process
+[0311/091117.534:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/091117.534:ERROR:exception_snapshot_win.cc(98)] thread ID 228116 not found in process
+[0311/091117.551:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/091117.551:ERROR:exception_snapshot_win.cc(98)] thread ID 210908 not found in process
+[0311/091117.586:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/091117.586:ERROR:exception_snapshot_win.cc(98)] thread ID 247920 not found in process
+[0311/091219.302:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/091219.302:ERROR:exception_snapshot_win.cc(98)] thread ID 238512 not found in process
+[0311/091219.310:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/091219.311:ERROR:exception_snapshot_win.cc(98)] thread ID 249700 not found in process
+[0311/091219.310:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/091219.311:ERROR:exception_snapshot_win.cc(98)] thread ID 224720 not found in process
+[0311/091219.491:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/091219.491:ERROR:exception_snapshot_win.cc(98)] thread ID 248524 not found in process
+[0311/091219.523:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/091219.523:ERROR:exception_snapshot_win.cc(98)] thread ID 252196 not found in process
+[0311/092536.433:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0311/092536.437:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0311/092536.437:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0311/093537.392:ERROR:process_reader_win.cc(108)] process 246788 not found
+[0311/093537.392:ERROR:exception_snapshot_win.cc(98)] thread ID 244628 not found in process
+[0311/093537.393:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0311/094724.959:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/094724.963:ERROR:exception_snapshot_win.cc(98)] thread ID 248860 not found in process
+[0311/094724.968:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/094724.968:ERROR:exception_snapshot_win.cc(98)] thread ID 251592 not found in process
+[0311/094724.975:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/094724.976:ERROR:exception_snapshot_win.cc(98)] thread ID 227508 not found in process
+[0311/094724.975:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/094724.976:ERROR:exception_snapshot_win.cc(98)] thread ID 250828 not found in process
+[0311/094725.154:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/094725.154:ERROR:exception_snapshot_win.cc(98)] thread ID 248556 not found in process
+[0311/094725.155:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/094725.155:ERROR:exception_snapshot_win.cc(98)] thread ID 246920 not found in process
+[0311/095126.865:ERROR:process_reader_win.cc(108)] process 249656 not found
+[0311/095126.866:ERROR:exception_snapshot_win.cc(98)] thread ID 238232 not found in process
+[0311/095126.866:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0311/095137.302:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095137.305:ERROR:exception_snapshot_win.cc(98)] thread ID 244788 not found in process
+[0311/095137.314:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095137.315:ERROR:exception_snapshot_win.cc(98)] thread ID 247880 not found in process
+[0311/095137.313:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095137.316:ERROR:exception_snapshot_win.cc(98)] thread ID 243460 not found in process
+[0311/095137.513:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095137.513:ERROR:exception_snapshot_win.cc(98)] thread ID 247756 not found in process
+[0311/095137.515:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095137.515:ERROR:exception_snapshot_win.cc(98)] thread ID 225960 not found in process
+[0311/095137.543:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095137.543:ERROR:exception_snapshot_win.cc(98)] thread ID 244568 not found in process
+[0311/095357.739:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095357.740:ERROR:exception_snapshot_win.cc(98)] thread ID 252560 not found in process
+[0311/095357.747:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095357.748:ERROR:exception_snapshot_win.cc(98)] thread ID 244452 not found in process
+[0311/095357.751:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095357.751:ERROR:exception_snapshot_win.cc(98)] thread ID 231532 not found in process
+[0311/095357.761:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095357.761:ERROR:exception_snapshot_win.cc(98)] thread ID 227424 not found in process
+[0311/095357.904:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095357.904:ERROR:exception_snapshot_win.cc(98)] thread ID 251224 not found in process
+[0311/095357.909:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095357.909:ERROR:exception_snapshot_win.cc(98)] thread ID 237880 not found in process
+[0311/095357.933:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095357.933:ERROR:exception_snapshot_win.cc(98)] thread ID 244252 not found in process
+[0311/095402.598:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095402.599:ERROR:exception_snapshot_win.cc(98)] thread ID 240580 not found in process
+[0311/095402.727:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095402.727:ERROR:exception_snapshot_win.cc(98)] thread ID 248304 not found in process
+[0311/095505.997:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095505.999:ERROR:exception_snapshot_win.cc(98)] thread ID 10156 not found in process
+[0311/095506.136:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095506.136:ERROR:exception_snapshot_win.cc(98)] thread ID 252640 not found in process
+[0311/095541.490:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095541.490:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095541.491:ERROR:exception_snapshot_win.cc(98)] thread ID 222292 not found in process
+[0311/095541.491:ERROR:exception_snapshot_win.cc(98)] thread ID 239236 not found in process
+[0311/095541.496:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095541.497:ERROR:exception_snapshot_win.cc(98)] thread ID 182192 not found in process
+[0311/095541.500:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095541.500:ERROR:exception_snapshot_win.cc(98)] thread ID 245844 not found in process
+[0311/095541.709:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095541.710:ERROR:exception_snapshot_win.cc(98)] thread ID 252720 not found in process
+[0311/095541.712:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095541.712:ERROR:exception_snapshot_win.cc(98)] thread ID 244784 not found in process
+[0311/095541.719:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095541.720:ERROR:exception_snapshot_win.cc(98)] thread ID 250172 not found in process
+[0311/095606.883:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095606.883:ERROR:exception_snapshot_win.cc(98)] thread ID 227396 not found in process
+[0311/095606.888:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095606.889:ERROR:exception_snapshot_win.cc(98)] thread ID 250312 not found in process
+[0311/095607.115:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095607.115:ERROR:exception_snapshot_win.cc(98)] thread ID 251944 not found in process
+[0311/095607.116:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095607.116:ERROR:exception_snapshot_win.cc(98)] thread ID 232768 not found in process
+[0311/095611.208:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095611.209:ERROR:exception_snapshot_win.cc(98)] thread ID 250980 not found in process
+[0311/095611.395:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095611.395:ERROR:exception_snapshot_win.cc(98)] thread ID 244820 not found in process
+[0311/095624.550:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095624.551:ERROR:exception_snapshot_win.cc(98)] thread ID 251908 not found in process
+[0311/095624.753:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095624.753:ERROR:exception_snapshot_win.cc(98)] thread ID 251836 not found in process
+[0311/095628.247:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095628.248:ERROR:exception_snapshot_win.cc(98)] thread ID 241724 not found in process
+[0311/095628.372:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095628.372:ERROR:exception_snapshot_win.cc(98)] thread ID 220560 not found in process
+[0311/095631.837:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095631.837:ERROR:exception_snapshot_win.cc(98)] thread ID 236480 not found in process
+[0311/095702.216:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095702.216:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095702.216:ERROR:exception_snapshot_win.cc(98)] thread ID 246904 not found in process
+[0311/095702.216:ERROR:exception_snapshot_win.cc(98)] thread ID 243784 not found in process
+[0311/095702.230:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095702.231:ERROR:exception_snapshot_win.cc(98)] thread ID 216456 not found in process
+[0311/095702.234:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095702.234:ERROR:exception_snapshot_win.cc(98)] thread ID 243600 not found in process
+[0311/095702.404:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095702.404:ERROR:exception_snapshot_win.cc(98)] thread ID 244444 not found in process
+[0311/095702.424:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095702.424:ERROR:exception_snapshot_win.cc(98)] thread ID 242428 not found in process
+[0311/095704.048:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095704.048:ERROR:exception_snapshot_win.cc(98)] thread ID 251808 not found in process
+[0311/095704.173:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095704.174:ERROR:exception_snapshot_win.cc(98)] thread ID 246376 not found in process
+[0311/095706.330:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095706.330:ERROR:exception_snapshot_win.cc(98)] thread ID 252644 not found in process
+[0311/095710.689:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095710.689:ERROR:exception_snapshot_win.cc(98)] thread ID 248852 not found in process
+[0311/095710.844:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095710.844:ERROR:exception_snapshot_win.cc(98)] thread ID 233740 not found in process
+[0311/095732.133:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095732.134:ERROR:exception_snapshot_win.cc(98)] thread ID 229776 not found in process
+[0311/095732.357:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095732.357:ERROR:exception_snapshot_win.cc(98)] thread ID 239632 not found in process
+[0311/095738.378:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095738.378:ERROR:exception_snapshot_win.cc(98)] thread ID 246644 not found in process
+[0311/095738.519:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/095738.519:ERROR:exception_snapshot_win.cc(98)] thread ID 235820 not found in process
+[0311/100057.082:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100057.083:ERROR:exception_snapshot_win.cc(98)] thread ID 230312 not found in process
+[0311/100057.083:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100057.083:ERROR:exception_snapshot_win.cc(98)] thread ID 249324 not found in process
+[0311/100057.268:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100057.268:ERROR:exception_snapshot_win.cc(98)] thread ID 252216 not found in process
+[0311/100057.275:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100057.275:ERROR:exception_snapshot_win.cc(98)] thread ID 226144 not found in process
+[0311/100104.702:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100104.702:ERROR:exception_snapshot_win.cc(98)] thread ID 230816 not found in process
+[0311/100104.891:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100104.892:ERROR:exception_snapshot_win.cc(98)] thread ID 252760 not found in process
+[0311/100119.278:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100119.278:ERROR:exception_snapshot_win.cc(98)] thread ID 76956 not found in process
+[0311/100119.439:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100119.439:ERROR:exception_snapshot_win.cc(98)] thread ID 241368 not found in process
+[0311/100203.318:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100203.318:ERROR:exception_snapshot_win.cc(98)] thread ID 250244 not found in process
+[0311/100203.444:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100203.444:ERROR:exception_snapshot_win.cc(98)] thread ID 228168 not found in process
+[0311/100240.001:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100240.002:ERROR:exception_snapshot_win.cc(98)] thread ID 227048 not found in process
+[0311/100240.220:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100240.221:ERROR:exception_snapshot_win.cc(98)] thread ID 236128 not found in process
+[0311/100452.670:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100452.671:ERROR:exception_snapshot_win.cc(98)] thread ID 229284 not found in process
+[0311/100452.773:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100452.773:ERROR:exception_snapshot_win.cc(98)] thread ID 237728 not found in process
+[0311/100452.848:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100452.848:ERROR:exception_snapshot_win.cc(98)] thread ID 248560 not found in process
+[0311/100453.076:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100453.076:ERROR:exception_snapshot_win.cc(98)] thread ID 251648 not found in process
+[0311/100753.637:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100753.638:ERROR:exception_snapshot_win.cc(98)] thread ID 228812 not found in process
+[0311/100753.642:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100753.642:ERROR:exception_snapshot_win.cc(98)] thread ID 251932 not found in process
+[0311/100753.769:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/100753.769:ERROR:exception_snapshot_win.cc(98)] thread ID 227520 not found in process
+[0311/104359.822:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/104359.822:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/104359.823:ERROR:exception_snapshot_win.cc(98)] thread ID 87216 not found in process
+[0311/104359.823:ERROR:exception_snapshot_win.cc(98)] thread ID 10704 not found in process
+[0311/104359.989:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/104359.989:ERROR:exception_snapshot_win.cc(98)] thread ID 211236 not found in process
+[0311/104533.123:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/104533.124:ERROR:exception_snapshot_win.cc(98)] thread ID 252544 not found in process
+[0311/104533.387:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/104533.387:ERROR:exception_snapshot_win.cc(98)] thread ID 248996 not found in process
+[0311/105541.811:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/105541.812:ERROR:exception_snapshot_win.cc(98)] thread ID 245248 not found in process
+[0311/105542.024:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/105542.024:ERROR:exception_snapshot_win.cc(98)] thread ID 241140 not found in process
+[0311/105634.463:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/105634.464:ERROR:exception_snapshot_win.cc(98)] thread ID 245784 not found in process
+[0311/105634.464:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/105634.464:ERROR:exception_snapshot_win.cc(98)] thread ID 241000 not found in process
+[0311/105634.594:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/105634.594:ERROR:exception_snapshot_win.cc(98)] thread ID 239896 not found in process
+[0311/105858.754:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/105858.755:ERROR:exception_snapshot_win.cc(98)] thread ID 247000 not found in process
+[0311/105858.907:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/105858.907:ERROR:exception_snapshot_win.cc(98)] thread ID 251596 not found in process
+[0311/110132.048:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/110132.049:ERROR:exception_snapshot_win.cc(98)] thread ID 225656 not found in process
+[0311/110132.176:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/110132.176:ERROR:exception_snapshot_win.cc(98)] thread ID 248940 not found in process
+[0311/110256.638:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/110256.639:ERROR:exception_snapshot_win.cc(98)] thread ID 251688 not found in process
+[0311/110256.768:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/110256.768:ERROR:exception_snapshot_win.cc(98)] thread ID 248192 not found in process
+[0311/111514.465:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/111514.466:ERROR:exception_snapshot_win.cc(98)] thread ID 211100 not found in process
+[0311/111514.679:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/111514.679:ERROR:exception_snapshot_win.cc(98)] thread ID 236844 not found in process
+[0311/111755.752:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/111755.754:ERROR:exception_snapshot_win.cc(98)] thread ID 214112 not found in process
+[0311/111756.034:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/111756.034:ERROR:exception_snapshot_win.cc(98)] thread ID 248388 not found in process
+[0311/111850.505:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/111850.506:ERROR:exception_snapshot_win.cc(98)] thread ID 234756 not found in process
+[0311/111850.663:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/111850.663:ERROR:exception_snapshot_win.cc(98)] thread ID 226620 not found in process
+[0311/111856.898:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/111856.899:ERROR:exception_snapshot_win.cc(98)] thread ID 181020 not found in process
+[0311/113106.985:ERROR:file_io.cc(134)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0311/113337.805:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/113337.807:ERROR:exception_snapshot_win.cc(98)] thread ID 246388 not found in process
+[0311/113337.886:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/113337.886:ERROR:exception_snapshot_win.cc(98)] thread ID 233984 not found in process
+[0311/113338.101:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/113338.102:ERROR:exception_snapshot_win.cc(98)] thread ID 229780 not found in process
+[0311/113339.640:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/113339.640:ERROR:exception_snapshot_win.cc(98)] thread ID 215864 not found in process
+[0311/113453.864:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/113453.865:ERROR:exception_snapshot_win.cc(98)] thread ID 250716 not found in process
+[0311/113453.965:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/113453.965:ERROR:exception_snapshot_win.cc(98)] thread ID 240848 not found in process
+[0311/113454.217:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/113454.217:ERROR:exception_snapshot_win.cc(98)] thread ID 246204 not found in process
+[0311/113501.143:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/113501.143:ERROR:exception_snapshot_win.cc(98)] thread ID 230856 not found in process
+[0311/113619.681:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/113619.682:ERROR:exception_snapshot_win.cc(98)] thread ID 247424 not found in process
+[0311/113619.781:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/113619.782:ERROR:exception_snapshot_win.cc(98)] thread ID 238136 not found in process
+[0311/113620.017:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/113620.018:ERROR:exception_snapshot_win.cc(98)] thread ID 251524 not found in process
+[0311/113621.303:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/113621.303:ERROR:exception_snapshot_win.cc(98)] thread ID 250716 not found in process
+[0311/121445.474:ERROR:file_io.cc(134)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0311/123836.801:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/123836.802:ERROR:exception_snapshot_win.cc(98)] thread ID 252492 not found in process
+[0311/123837.114:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/123837.115:ERROR:exception_snapshot_win.cc(98)] thread ID 250512 not found in process
+[0311/124135.182:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/124135.183:ERROR:exception_snapshot_win.cc(98)] thread ID 250892 not found in process
+[0311/124135.336:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/124135.336:ERROR:exception_snapshot_win.cc(98)] thread ID 249716 not found in process
+[0311/124243.160:ERROR:process_reader_win.cc(108)] process 230704 not found
+[0311/124243.160:ERROR:exception_snapshot_win.cc(98)] thread ID 217920 not found in process
+[0311/124243.161:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0311/124244.081:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/124244.082:ERROR:exception_snapshot_win.cc(98)] thread ID 237144 not found in process
+[0311/124244.381:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/124244.381:ERROR:exception_snapshot_win.cc(98)] thread ID 245372 not found in process
+[0311/124726.817:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/124726.818:ERROR:exception_snapshot_win.cc(98)] thread ID 232100 not found in process
+[0311/124726.820:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/124726.820:ERROR:exception_snapshot_win.cc(98)] thread ID 244452 not found in process
+[0311/124726.963:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/124726.963:ERROR:exception_snapshot_win.cc(98)] thread ID 219196 not found in process
+[0311/125035.660:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/125035.661:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/125035.662:ERROR:exception_snapshot_win.cc(98)] thread ID 232524 not found in process
+[0311/125035.662:ERROR:exception_snapshot_win.cc(98)] thread ID 248568 not found in process
+[0311/125035.784:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/125035.785:ERROR:exception_snapshot_win.cc(98)] thread ID 176276 not found in process
+[0311/125314.531:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/125314.532:ERROR:exception_snapshot_win.cc(98)] thread ID 250036 not found in process
+[0311/125314.540:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/125314.541:ERROR:exception_snapshot_win.cc(98)] thread ID 30644 not found in process
+[0311/125314.659:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/125314.659:ERROR:exception_snapshot_win.cc(98)] thread ID 251780 not found in process
+[0311/130338.154:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/130338.156:ERROR:exception_snapshot_win.cc(98)] thread ID 188192 not found in process
+[0311/130338.358:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/130338.359:ERROR:exception_snapshot_win.cc(98)] thread ID 252596 not found in process
+[0311/130555.946:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/130555.947:ERROR:exception_snapshot_win.cc(98)] thread ID 228044 not found in process
+[0311/130556.089:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/130556.090:ERROR:exception_snapshot_win.cc(98)] thread ID 251144 not found in process
+[0311/130800.818:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/130800.819:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/130800.820:ERROR:exception_snapshot_win.cc(98)] thread ID 239880 not found in process
+[0311/130800.820:ERROR:exception_snapshot_win.cc(98)] thread ID 252320 not found in process
+[0311/130800.955:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/130800.956:ERROR:exception_snapshot_win.cc(98)] thread ID 238028 not found in process
+[0311/130831.694:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/130831.695:ERROR:exception_snapshot_win.cc(98)] thread ID 248924 not found in process
+[0311/130831.705:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/130831.705:ERROR:exception_snapshot_win.cc(98)] thread ID 211236 not found in process
+[0311/130831.859:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/130831.859:ERROR:exception_snapshot_win.cc(98)] thread ID 251232 not found in process
+[0311/131043.389:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/131043.391:ERROR:exception_snapshot_win.cc(98)] thread ID 241724 not found in process
+[0311/131043.548:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/131043.548:ERROR:exception_snapshot_win.cc(98)] thread ID 227432 not found in process
+[0311/131404.644:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/131404.645:ERROR:exception_snapshot_win.cc(98)] thread ID 176936 not found in process
+[0311/131404.847:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/131404.847:ERROR:exception_snapshot_win.cc(98)] thread ID 239728 not found in process
+[0311/143247.678:ERROR:file_io.cc(134)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0311/143839.105:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/143839.107:ERROR:exception_snapshot_win.cc(98)] thread ID 246024 not found in process
+[0311/143839.173:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/143839.173:ERROR:exception_snapshot_win.cc(98)] thread ID 227424 not found in process
+[0311/143839.392:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/143839.392:ERROR:exception_snapshot_win.cc(98)] thread ID 249748 not found in process
+[0311/143841.759:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0311/143841.759:ERROR:exception_snapshot_win.cc(98)] thread ID 244820 not found in process
+[0311/151155.679:ERROR:process_reader_win.cc(108)] process 250248 not found
+[0311/151155.681:ERROR:exception_snapshot_win.cc(98)] thread ID 238492 not found in process
+[0311/151155.681:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0311/151528.927:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0311/151528.928:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0311/151528.928:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0311/151528.928:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0311/160145.212:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0311/160145.215:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0311/160145.215:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0311/163023.002:ERROR:file_io.cc(134)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0312/094239.893:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0312/094239.894:ERROR:exception_snapshot_win.cc(98)] thread ID 227324 not found in process
+[0312/094240.012:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0312/094240.012:ERROR:exception_snapshot_win.cc(98)] thread ID 246904 not found in process
+[0312/094455.862:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0312/094455.862:ERROR:exception_snapshot_win.cc(98)] thread ID 242832 not found in process
+[0312/094455.864:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0312/094455.864:ERROR:exception_snapshot_win.cc(98)] thread ID 252676 not found in process
+[0312/094455.991:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0312/094455.991:ERROR:exception_snapshot_win.cc(98)] thread ID 252720 not found in process
+[0312/114130.485:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0312/114130.486:ERROR:exception_snapshot_win.cc(98)] thread ID 228120 not found in process
+[0312/114130.616:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0312/114130.616:ERROR:exception_snapshot_win.cc(98)] thread ID 251760 not found in process
+[0312/122155.207:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0312/122155.209:ERROR:exception_snapshot_win.cc(98)] thread ID 236364 not found in process
+[0312/122155.374:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0312/122155.374:ERROR:exception_snapshot_win.cc(98)] thread ID 250012 not found in process
+[0312/122327.405:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0312/122327.406:ERROR:exception_snapshot_win.cc(98)] thread ID 248172 not found in process
+[0312/122327.524:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0312/122327.524:ERROR:exception_snapshot_win.cc(98)] thread ID 239476 not found in process
+[0312/123047.530:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0312/123047.531:ERROR:exception_snapshot_win.cc(98)] thread ID 250628 not found in process
+[0312/123047.533:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0312/123047.533:ERROR:exception_snapshot_win.cc(98)] thread ID 246444 not found in process
+[0312/123047.666:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[0312/123047.666:ERROR:exception_snapshot_win.cc(98)] thread ID 245792 not found in process
+[0312/232341.374:ERROR:file_io.cc(134)] WriteFile: Se está cerrando la canalización. (0xE8)
